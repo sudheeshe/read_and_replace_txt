@@ -10,6 +10,8 @@ def find_and_replace(file, find_txt, replace_txt):
     return: None
     """
 
+
+
     try:
         file = Path(file)
         data = file.read_text()
